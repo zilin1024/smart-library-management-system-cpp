@@ -1,0 +1,33 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Build outputs
+x64/
+x86/
+Debug/
+Release/
+build/
+out/
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.exp
+*.recipe
+*.tlog
+*.lastbuildstate
+*.log
+
+# Runtime generated data
+demo_data/backups/
+daily_report.txt
+
+# OS files
+Thumbs.db
+.DS_Store
