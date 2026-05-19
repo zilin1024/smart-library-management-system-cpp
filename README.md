@@ -42,11 +42,13 @@
 
 ```text
 .
-├── *.h / *.cpp              # 核心源码
+├── src/                     # C++ source files
+├── include/                 # Header files
+├── data/demo_data/          # 演示数据与导出结果
 ├── Project2.sln             # Visual Studio 解决方案
 ├── Project2.vcxproj         # Visual Studio C++ 工程配置
-├── demo_data/               # 演示数据与导出结果
 ├── README.md
+├── LICENSE
 └── .gitignore
 ```
 
@@ -80,7 +82,7 @@ x64\Debug\Project2.exe
 1024
 ```
 
-演示数据位于 `demo_data/` 目录，程序可自动加载图书、读者和借阅记录等本地数据。
+演示数据位于 `data/demo_data/` 目录，程序可自动加载图书、读者和借阅记录等本地数据。
 
 ## 核心设计
 
@@ -104,4 +106,4 @@ x64\Debug\Project2.exe
 
 ## License
 
-建议使用 MIT License。若仓库中尚未添加 `LICENSE` 文件，可以后续补充。
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.

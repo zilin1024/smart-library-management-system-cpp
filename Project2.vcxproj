@@ -76,6 +76,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -90,6 +92,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -105,6 +109,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -119,6 +124,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,60 +135,62 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="AdvancedSearch.h" />
-    <ClInclude Include="AIRecommender.h" />
-    <ClInclude Include="Book.h" />
-    <ClInclude Include="BookService.h" />
-    <ClInclude Include="BorrowRecord.h" />
-    <ClInclude Include="BorrowService.h" />
-    <ClInclude Include="CommunityManager.h" />
-    <ClInclude Include="ConsoleUI.h" />
-    <ClInclude Include="CreditSystem.h" />
-    <ClInclude Include="DataAnalyzer.h" />
-    <ClInclude Include="DateUtil.h" />
-    <ClInclude Include="Encryption.h" />
-    <ClInclude Include="FileManager.h" />
-    <ClInclude Include="InteractiveShell.h" />
-    <ClInclude Include="LibraryManager.h" />
-    <ClInclude Include="Logger.h" />
-    <ClInclude Include="MultiTerminalSync.h" />
-    <ClInclude Include="NotificationCenter.h" />
-    <ClInclude Include="Reader.h" />
-    <ClInclude Include="ReaderService.h" />
-    <ClInclude Include="ReportGenerator.h" />
-    <ClInclude Include="ReservationSystem.h" />
-    <ClInclude Include="SearchService.h" />
-    <ClInclude Include="SecurityManager.h" />
-    <ClInclude Include="StringUtil.h" />
+    <ClInclude Include="include\AdvancedSearch.h" />
+    <ClInclude Include="include\AIRecommender.h" />
+    <ClInclude Include="include\Book.h" />
+    <ClInclude Include="include\BookService.h" />
+    <ClInclude Include="include\BorrowRecord.h" />
+    <ClInclude Include="include\BorrowService.h" />
+    <ClInclude Include="include\CommunityManager.h" />
+    <ClInclude Include="include\ConsoleUI.h" />
+    <ClInclude Include="include\CreditSystem.h" />
+    <ClInclude Include="include\DataAnalyzer.h" />
+    <ClInclude Include="include\DateUtil.h" />
+    <ClInclude Include="include\Encryption.h" />
+    <ClInclude Include="include\FileManager.h" />
+    <ClInclude Include="include\InteractiveShell.h" />
+    <ClInclude Include="include\LibraryManager.h" />
+    <ClInclude Include="include\Logger.h" />
+    <ClInclude Include="include\MultiTerminalSync.h" />
+    <ClInclude Include="include\NotificationCenter.h" />
+    <ClInclude Include="include\Reader.h" />
+    <ClInclude Include="include\ReaderService.h" />
+    <ClInclude Include="include\ReportGenerator.h" />
+    <ClInclude Include="include\ReservationSystem.h" />
+    <ClInclude Include="include\SearchService.h" />
+    <ClInclude Include="include\SecurityManager.h" />
+    <ClInclude Include="include\StringUtil.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AdvancedSearch.cpp" />
-    <ClCompile Include="AIRecommender.cpp" />
-    <ClCompile Include="Book.cpp" />
-    <ClCompile Include="BookService.cpp" />
-    <ClCompile Include="BorrowRecord.cpp" />
-    <ClCompile Include="BorrowService.cpp" />
-    <ClCompile Include="CommunityManager.cpp" />
-    <ClCompile Include="DataAnalyzer.cpp" />
-    <ClCompile Include="DateUtil.cpp" />
-    <ClCompile Include="Encryption.cpp" />
-    <ClCompile Include="FileManager.cpp" />
-    <ClCompile Include="InteractiveShell.cpp" />
-    <ClCompile Include="LibraryManager.cpp" />
-    <ClCompile Include="Logger.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="MultiTerminalSync.cpp" />
-    <ClCompile Include="NotificationCenter.cpp" />
-    <ClCompile Include="Reader.cpp" />
-    <ClCompile Include="ReaderService.cpp" />
-    <ClCompile Include="ReportGenerator.cpp" />
-    <ClCompile Include="ReservationSystem.cpp" />
-    <ClCompile Include="SearchService.cpp" />
-    <ClCompile Include="SecurityManager.cpp" />
-    <ClCompile Include="StringUtil.cpp" />
-    <ClCompile Include="CreditSystem.cpp" />
+    <ClCompile Include="src\AdvancedSearch.cpp" />
+    <ClCompile Include="src\AIRecommender.cpp" />
+    <ClCompile Include="src\Book.cpp" />
+    <ClCompile Include="src\BookService.cpp" />
+    <ClCompile Include="src\BorrowRecord.cpp" />
+    <ClCompile Include="src\BorrowService.cpp" />
+    <ClCompile Include="src\CommunityManager.cpp" />
+    <ClCompile Include="src\DataAnalyzer.cpp" />
+    <ClCompile Include="src\DateUtil.cpp" />
+    <ClCompile Include="src\Encryption.cpp" />
+    <ClCompile Include="src\FileManager.cpp" />
+    <ClCompile Include="src\InteractiveShell.cpp" />
+    <ClCompile Include="src\LibraryManager.cpp" />
+    <ClCompile Include="src\Logger.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\MultiTerminalSync.cpp" />
+    <ClCompile Include="src\NotificationCenter.cpp" />
+    <ClCompile Include="src\Reader.cpp" />
+    <ClCompile Include="src\ReaderService.cpp" />
+    <ClCompile Include="src\ReportGenerator.cpp" />
+    <ClCompile Include="src\ReservationSystem.cpp" />
+    <ClCompile Include="src\SearchService.cpp" />
+    <ClCompile Include="src\SecurityManager.cpp" />
+    <ClCompile Include="src\StringUtil.cpp" />
+    <ClCompile Include="src\CreditSystem.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
 </Project>
+
+

@@ -25,8 +25,10 @@ out/
 *.log
 
 # Runtime generated data
-demo_data/backups/
+data/demo_data/backups/
 daily_report.txt
+library_export.csv
+library_export.json
 
 # OS files
 Thumbs.db

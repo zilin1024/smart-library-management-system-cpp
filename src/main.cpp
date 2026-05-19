@@ -817,9 +817,9 @@ void demoReportGenerator(ReportGenerator& reportGenerator, BorrowService& borrow
     auto todayReport = reportGenerator.generateDailyReport(DateUtil::today());
     std::cout << "今日运营日报（节选）：\n" << todayReport.substr(0, 120) << "...（全文已生成）\n";
     auto monthlyReport = reportGenerator.generateMonthlyReport(DateUtil::today().year, DateUtil::today().month);
-    reportGenerator.exportReportToFile(monthlyReport, "./demo_data/monthly_report_full.txt");
-    reportGenerator.exportReportToHTML(monthlyReport, "./demo_data/monthly_report_full.html");
-    reportGenerator.exportReportToMarkdown(monthlyReport, "./demo_data/monthly_report_full.md");
+    reportGenerator.exportReportToFile(monthlyReport, "./data/demo_data/monthly_report_full.txt");
+    reportGenerator.exportReportToHTML(monthlyReport, "./data/demo_data/monthly_report_full.html");
+    reportGenerator.exportReportToMarkdown(monthlyReport, "./data/demo_data/monthly_report_full.md");
     std::cout << "已导出月报至文本/HTML/Markdown 文件。\n";
 
     std::vector<ReportSection> customSections = {
@@ -911,7 +911,7 @@ int main() {
     Logger::instance().setLogLevel(LogLevel::Debug);
     Logger::instance().info("图书馆管理系统启动……");
     LibraryManager libraryManager;
-    FileManager fileManager(libraryManager, "./demo_data");
+    FileManager fileManager(libraryManager, "./data/demo_data");
     BookService bookService(libraryManager);
     ReaderService readerService(libraryManager);
     BorrowService borrowService(libraryManager);

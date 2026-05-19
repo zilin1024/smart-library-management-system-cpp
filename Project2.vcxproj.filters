@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="源文件">
@@ -15,156 +15,156 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DateUtil.h">
+    <ClInclude Include="include\DateUtil.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="StringUtil.h">
+    <ClInclude Include="include\StringUtil.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Book.h">
+    <ClInclude Include="include\Book.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Reader.h">
+    <ClInclude Include="include\Reader.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="BorrowRecord.h">
+    <ClInclude Include="include\BorrowRecord.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="LibraryManager.h">
+    <ClInclude Include="include\LibraryManager.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="FileManager.h">
+    <ClInclude Include="include\FileManager.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="BookService.h">
+    <ClInclude Include="include\BookService.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="ReaderService.h">
+    <ClInclude Include="include\ReaderService.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="BorrowService.h">
+    <ClInclude Include="include\BorrowService.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SearchService.h">
+    <ClInclude Include="include\SearchService.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="AIRecommender.h">
+    <ClInclude Include="include\AIRecommender.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="DataAnalyzer.h">
+    <ClInclude Include="include\DataAnalyzer.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="NotificationCenter.h">
+    <ClInclude Include="include\NotificationCenter.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="ReservationSystem.h">
+    <ClInclude Include="include\ReservationSystem.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="CreditSystem.h">
+    <ClInclude Include="include\CreditSystem.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="CommunityManager.h">
+    <ClInclude Include="include\CommunityManager.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="MultiTerminalSync.h">
+    <ClInclude Include="include\MultiTerminalSync.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="ReportGenerator.h">
+    <ClInclude Include="include\ReportGenerator.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SecurityManager.h">
+    <ClInclude Include="include\SecurityManager.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Encryption.h">
+    <ClInclude Include="include\Encryption.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Logger.h">
+    <ClInclude Include="include\Logger.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="AdvancedSearch.h">
+    <ClInclude Include="include\AdvancedSearch.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="ConsoleUI.h">
+    <ClInclude Include="include\ConsoleUI.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="InteractiveShell.h">
+    <ClInclude Include="include\InteractiveShell.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DateUtil.cpp">
+    <ClCompile Include="src\DateUtil.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="StringUtil.cpp">
+    <ClCompile Include="src\StringUtil.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Book.cpp">
+    <ClCompile Include="src\Book.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Reader.cpp">
+    <ClCompile Include="src\Reader.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="BorrowRecord.cpp">
+    <ClCompile Include="src\BorrowRecord.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="LibraryManager.cpp">
+    <ClCompile Include="src\LibraryManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="FileManager.cpp">
+    <ClCompile Include="src\FileManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="BookService.cpp">
+    <ClCompile Include="src\BookService.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ReaderService.cpp">
+    <ClCompile Include="src\ReaderService.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="BorrowService.cpp">
+    <ClCompile Include="src\BorrowService.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SearchService.cpp">
+    <ClCompile Include="src\SearchService.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="AIRecommender.cpp">
+    <ClCompile Include="src\AIRecommender.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="DataAnalyzer.cpp">
+    <ClCompile Include="src\DataAnalyzer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="NotificationCenter.cpp">
+    <ClCompile Include="src\NotificationCenter.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ReservationSystem.cpp">
+    <ClCompile Include="src\ReservationSystem.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="CreditSystem.cpp">
+    <ClCompile Include="src\CreditSystem.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="CommunityManager.cpp">
+    <ClCompile Include="src\CommunityManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="MultiTerminalSync.cpp">
+    <ClCompile Include="src\MultiTerminalSync.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ReportGenerator.cpp">
+    <ClCompile Include="src\ReportGenerator.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SecurityManager.cpp">
+    <ClCompile Include="src\SecurityManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Encryption.cpp">
+    <ClCompile Include="src\Encryption.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Logger.cpp">
+    <ClCompile Include="src\Logger.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="AdvancedSearch.cpp">
+    <ClCompile Include="src\AdvancedSearch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="InteractiveShell.cpp">
+    <ClCompile Include="src\InteractiveShell.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
