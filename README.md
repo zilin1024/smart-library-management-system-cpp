@@ -1,6 +1,6 @@
 # Smart Library Management System in C++20
 
-一个基于 C++20 的智能图书管理系统，面向课程设计、数据结构实践和面向对象编程学习场景。项目采用分层解耦与服务化设计，覆盖图书、读者、借阅、预约、推荐、信用、报表、多终端同步和安全审计等模块。
+一个基于 C++20 的智能图书管理系统，面向课程设计、数据结构实践和面向对象编程学习场景（期末大作业）。项目采用分层解耦与服务化设计，覆盖图书、读者、借阅、预约、推荐、信用、报表、多终端同步和安全审计等模块。
 
 > English keywords: C++20, library management system, object-oriented programming, console application, recommendation system, data persistence.
 
